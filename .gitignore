@@ -7,3 +7,13 @@ bookenv*
 *.svg
 *.log
 Karauke*
+
+lib
+lib64
+bin
+venv
+pyvenv.cfg
+pip-selfcheck.json
+
+.idea
+*.iml
