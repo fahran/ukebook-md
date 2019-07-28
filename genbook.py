@@ -437,7 +437,7 @@ def main(options):
     template_maps = {}
     if options.format == 'epub':
         template_maps[os.path.join(parent,'nav.xhtml')] = 'nav.xhtml.j2'
-        template_mps[os.path.join(parent, 'package.opf')] =  'package.opf.j2'
+        template_maps[os.path.join(parent, 'package.opf')] =  'package.opf.j2'
 
     if options.format != 'onepage' and not options.no_index:
         template_maps[os.path.join(parent, 'index.html')] = 'bookindex.j2'
