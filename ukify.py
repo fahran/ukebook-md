@@ -103,7 +103,7 @@ def main(options):
             # print(ctx)
             ctx['html'] = str(soup)
 
-            out = render("ukesong.j2", ctx)
+            out = render("song_external_svg.html.j2", ctx)
             if opts.stdout:
                 print (codecs.encode(out, "utf-8"))
             else:
